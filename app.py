@@ -3,6 +3,9 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# class Test(__name__):
+#     def get(selfself):
+
 
 @app.route('/')
 def main_page():
